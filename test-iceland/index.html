@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="lang" content="es">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+        <title>Travel to Iceland</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="hover-this">        
+                <span class="hover-move">
+                    <img src="./images/logo-travel-to-iceland.png" class="logo-home" alt="logo travel to iceland">
+                </span>
+            </div>
+            <div id="menu-btn" onClick="showMenu(true)"><i class="fa fa-bars"></i></div>
+                <div id="menu__panel">
+                    <i id="menu__close" class="menu__close fa fa-times fa-2x" onClick="showMenu(false)"></i>
+                    <a href="#" alt="change language" class="language">English/Español</a>
+                    
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#Inicio">Inicio</a></li>
+                        <li class="menu-item"><a href="#Reservas">Reservas</a></li>
+                        <li class="menu-item"><a href="#Tours">Tours</a></li>
+                        <li class="menu-item"><a href="#nosotros">Nosotros</a></li>
+                        <li class="menu-item"><a href="#contact0">Contacto</a></li>
+                    </ul>
+                </div>
+                <div id="menu__panel_image">
+                    <img src="./images/iceland-road.jpg" alt="iceland road" class="menu-image">
+                </div>
+                <div id="menu__panel_social">
+                    <div class="social">
+                        <a href="#" alt="link facebook"><img src="./images/facebook-icon.png" alt="facebook icon"></a>
+                        <a href="#" alt="link instagram"><img src="./images/instagram-icon.png" alt="instagram icon"></a>
+
+                    </div>
+                    <div class="slogan">
+                        “Excellent service - emailed instructions, no hassle, car was ready as soon as we arrived.”
+                    </div>
+                </div>
+        </header>
+
+
+        <section>
+            <div></div>
+            <div>
+                <video class="background-video" autoplay>
+                    <source src="./videos/geiser.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </div>
+                <div class="title-iceland hover-this">
+                    <span class="hover-move">
+                        ICELAND
+                    </span>
+                </div>
+        </section>
+
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
